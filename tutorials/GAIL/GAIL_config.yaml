@@ -1,0 +1,14 @@
+name: "Humanoid-v4"
+params:
+  num_epochs: 10000
+  num_steps_per_epochs: 10000
+  lambda_: 1e-3
+  gae_gamma: 0.99
+  gae_lambda: 0.99
+  epsilon: 0.01
+  max_kl: 0.01
+  cg_damping: 0.1
+  normarize_advantage: true
+  policy_net_hidden_dim: 512
+  value_net_hidden_dim: 128
+  discriminator_hidden_dim: 128
